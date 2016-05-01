@@ -40,12 +40,14 @@
         </section>
 
         <aside id="sidebar">
-          <a href="https://github.com/thinnida/homework" class="button"><small>View project on</small> GitHub</a>
-          <a href="https://github.com/thinnida/homework/zipball/master" class="button">
+          <a href="" class="button" onclick="htmlFunc();">HTML</a>
+          <a href="" class="button" onclick="rubyFunc();">RUBY</a>
+          <a href="https://github.com/thinnida/homework" class="button" style="display:none"><small>View project on</small> GitHub</a>
+          <a href="https://github.com/thinnida/homework/zipball/master" class="button" style="display:none">
             <small>Download</small>
             .zip file
           </a>
-          <a href="https://github.com/thinnida/homework/tarball/master" class="button">
+          <a href="https://github.com/thinnida/homework/tarball/master" class="button" style="display:none">
             <small>Download</small>
             .tar.gz file
           </a>
@@ -57,6 +59,17 @@
       </div>
     </div>
 
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>
+    function htmlFunc()
+    {
+      alert(1);  
+    }
+    
+    function rubyFunc()
+    {
+      alert(2);
+    }
+  </script>
   </body>
 </html>
