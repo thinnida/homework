@@ -1,0 +1,25 @@
+﻿div {
+    margin: 20px 200px;
+    padding:10px;
+    border: 1px solid #000000;
+    background-color:#FCCCCC;
+}
+
+img {
+    width: 300px;
+    border-radius:50%;
+    border:10px solid #000000; 
+    margin:20px;
+}
+
+.bg_blue {
+    background-color:#4a88f8;
+}
+
+.bg_red {
+    background-color:#fa8267;
+}
+
+.bg_green {
+    background-color:#67FA77;
+}
